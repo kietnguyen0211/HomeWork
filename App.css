@@ -1,7 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
-
+html,body{
+  width: 100%;
+  height: 100%;
+  background: grey;
+}
+.game{
+  width: 300px;
+  background: green;
+  display: flex;
+  flex-wrap: wrap;
+}
+.boxGame{
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 1px solid #fff;
+  line-height: 100px;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+button{
+  width: 100px;
+  height: 30px;
+  background: green;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
